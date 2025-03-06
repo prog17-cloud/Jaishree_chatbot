@@ -142,6 +142,28 @@
    ],
    "context_set": ""
 },
+
+   {
+   "tag": "Standard",
+   "patterns": [
+      "list of standard",
+      "list of standard offered",
+      "list of standard offered in",
+      "what are the  Standard offered in your tutions?",
+      "Standard?",
+      "Standard offered",
+      "Standard offered in Tutions",
+      "Standard you offer",
+      "Standard?",
+      "Standard available at Tutions?",
+      "Standard available at your Tutions?"
+      
+   ],
+   "responses": [
+      "I take tutions for 3rd to 8th Standard English Medium."
+   ],
+   "context_set": ""
+},    
  {
    "tag": "fees",
    "patterns": [
