@@ -39,7 +39,7 @@ def ChatBot(input_message):
              return response
  
 
-st.title(" Gujarat University Chatbot")
+st.title("  Jaishree tution classes Chatbot    ")
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -51,13 +51,13 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # React to user input
-if prompt := st.chat_input(" Welcome to Gujarat university How may i help you ?"):
+if prompt := st.chat_input(" Welcome to Jaishree Tutions How may i help you ?"):
     # Display user message in chat message container
     st.chat_message("user").markdown(prompt)
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    response = f" Parag :"+ ChatBot(prompt)
+    response = f" Jaishree Madam :"+ ChatBot(prompt)
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
         st.markdown(response)
