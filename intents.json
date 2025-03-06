@@ -1,0 +1,380 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!, Jaishree Madam here how may i assist you"
+      
+      
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      
+      "Goodbye! and have a nice day"
+      
+   ],
+   "context_set": ""
+},
+
+   
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You Jaishree Madam.",
+      
+      "I am a Chatbot."
+      
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of Tutions",
+      "what is Tutions timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the Tutions open",
+      "Tutions timing",
+      "what about Tutions timing",
+      "is Tutions open on saturday",
+      "tell something about Tutions timing",
+      "what is the Tutions  hours",
+      "when should i come to Tutions",
+      "when should i attend Tutions",
+      "what is my Tutions time",
+      "Tutions timing",
+      "timing Tutions"
+   ],
+   "responses": [
+      "Tutions are open 2pm-5.30pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact Tutions",
+      "Tutions telephone number",
+      "Tutions number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "Tutions phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact at: 9104568191 for tution inquiry"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "Standards",
+   "patterns": [
+      "list of standards",
+      "list of standards offered",
+      "list of standards offered in",
+      "what are the  Standards offered in your tutions?",
+      "Standards?",
+      "Standards offered",
+      "Standards offered in Tutions",
+      "Standards you offer",
+      "Standards?",
+      "Standards available at Tutions?",
+      "Standards available at your Tutions?"
+      
+   ],
+   "responses": [
+      "I take tutions for 3rd to 8th Standard English Medium."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "Tution fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      
+      "how much is the fees"
+      
+   ],
+   "responses": [
+      "I charge 800rs per month. You can pay monthly ,semi-annually or annually. Fees would also be charged for summer and diwali vacations"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the Tution classes located",
+       "Tutions  is located at?",
+      "where is Tution classes",
+      "where is Tution classes located",
+      "address of Tution classes",
+      "how to reach Tution classes",
+      "Tution classes location",
+      "Tution classes address",
+      "wheres the Tution classes",
+      "how can I reach Tution classes",
+      "whats is the  address",
+      "what is the address of Tution",
+      "address",
+      "location"
+   ],
+   "responses": [
+       "My tution classes are located at B11 goverdhannagar soc ,near icici bank ,halol:389350"
+   ],
+   "context_set": ""
+},
+ 
+      
+ 
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "You should bring 1.Academic marksheets 2.Identity proof 3.Address proof for addmission"
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "subjects",
+   "patterns": [
+      " which subjects you teach?",
+      
+      "subjects",
+      "Do you teach gujarati and hindi subjects also",
+      
+      "how many subjects"
+      
+   ],
+   "responses": [
+      "I teach all subjects including Gujarati and Hindi"
+   ],
+   "context_set": ""
+},
+
+
+
+
+ 
+
+
+
+ 
+
+
+ {
+   "tag": "admission",
+   "patterns": [
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your tution classes",
+      "What is the process for admission",
+      "admission",
+      "admission process"
+   ],
+   "responses": [
+      "Please visit my location with your parents and the required documents"
+   ],
+   "context_set": ""
+},
+ 
+    
+
+ {
+   "tag": "tution intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is tution classes intake",
+      "how many stundent are taken in each branch"
+      
+   ],
+   "responses": [
+      " My tution classes has 2 intakes 1. Summer(June) 2.Diwali/winter(November)"
+   ],
+   "context_set": ""
+},
+ 
+
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is from June till April. Tutions will be closed for summer and diwali vacations. Also tutions might be closed on goverment and festival"
+   
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "Welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding Jaishree tution classes",
+      "You can ask me questions regarding Jaishree tution classes, and i will try to answer them"
+   ],
+   "context_set": ""
+}
+ 
+ 
+]
+}
